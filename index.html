@@ -6,8 +6,20 @@
 	</head>
 	<body>
 		<h1>iframe test</h1>
+
+		<script src="https://d3jm465189mka0.cloudfront.net/lex-web-ui-loader.min.js"></script>
+<script>
+  var loaderOpts = {
+    baseUrl: 'https://d3jm465189mka0.cloudfront.net/',
+    shouldLoadMinDeps: true
+  };
+  var loader = new ChatBotUiLoader.IframeLoader(loaderOpts);
+  loader.load()
+    .catch(function (error) { console.error(error); });
+</script>
+
 		<!-- loader script -->
-		<script src="js/lex-web-ui-loader.js"></script>
+		<!-- <script src="js/lex-web-ui-loader.js"></script>
 		<script>
 		  /*
 			The loader library creates a global object named ChatBotUiLoader
@@ -68,6 +80,6 @@
 			.catch(function (err) {
 			  console.error(err);
 			});
-		</script>
+		</script> -->
 	  </body>
 </html>
