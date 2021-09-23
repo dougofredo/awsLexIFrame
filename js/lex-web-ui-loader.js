@@ -50381,7 +50381,7 @@ var dependenciesIframe = {
   }, {
     // mobile hub generated aws config
     name: 'aws_bots_config',
-    url: './aws-config.js',
+    url: './aws-config2.js',
     optional: true
   }],
   css: [{
