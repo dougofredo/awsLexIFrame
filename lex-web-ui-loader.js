@@ -50370,7 +50370,7 @@ var dependenciesFullPage = {
     canUseMin: true
   }, {
     name: 'lex-web-ui-loader',
-    url: 'lex-web-ui-loader.css'
+    url: './lex-web-ui-loader.css'
   }]
 };
 var dependenciesIframe = {
