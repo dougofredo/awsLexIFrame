@@ -50370,7 +50370,7 @@ var dependenciesFullPage = {
     canUseMin: true
   }, {
     name: 'lex-web-ui-loader',
-    url: './lex-web-ui-loader2.css'
+    url: './lex-web-ui-loader8.css'
   }]
 };
 var dependenciesIframe = {
@@ -50386,7 +50386,7 @@ var dependenciesIframe = {
   }],
   css: [{
     name: 'lex-web-ui-loader',
-    url: './lex-web-ui-loader2.css'
+    url: './lex-web-ui-loader9.css'
   }]
 };
 
