@@ -20,7 +20,7 @@
     "v2BotId": "",
     "v2BotAliasId": "",
     "v2BotLocaleId": "en_US",
-    "botName": "test_kyc",
+    "botName": "OrderFlowers",
     "botAlias": "$LATEST",
     "initialText": "Hello there",
     "initialSpeechInstruction": "Say hello",
