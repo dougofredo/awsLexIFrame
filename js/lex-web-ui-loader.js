@@ -50381,12 +50381,13 @@ var dependenciesIframe = {
   }, {
     // mobile hub generated aws config
     name: 'aws_bots_config',
-    url: './aws-config2.js',
+    url: './aws-config.js',
     optional: true
   }],
   css: [{
     name: 'lex-web-ui-loader',
     url: './lex-web-ui-loader9.css'
+    optional: true
   }]
 };
 
