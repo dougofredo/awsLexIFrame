@@ -1,0 +1,67 @@
+{
+  "region": "eu-west-2",
+  "cognito": {
+    "poolId": "eu-west-2:b5509f66-2a1e-42de-960c-b0411026c88d",
+    "appUserPoolClientId": "1oiiml7oial1mn6bd7bqvc2mf3",
+    "appUserPoolName": "eu-west-2_XufUByAN8",
+    "appDomainName": "mybotkidentitypoolconfigkbmfdepliwbbkd885989351946.auth.eu-west-2.amazoncognito.com",
+    "aws_cognito_region": "eu-west-2",
+    "region": "eu-west-2"
+  },
+  "connect": {
+    "contactFlowId": "",
+    "instanceId": "",
+    "apiGatewayEndpoint": "",
+    "promptForNameMessage": "Before starting a live chat, please tell me your name?",
+    "waitingForAgentMessage": "Thanks for waiting. An agent will be with you when available.",
+    "waitingForAgentMessageIntervalSeconds": "60"
+  },
+  "lex": {
+    "v2BotId": "",
+    "v2BotAliasId": "",
+    "v2BotLocaleId": "en_US",
+    "botName": "test_kyc",
+    "botAlias": "$LATEST",
+    "initialText": "Hello there",
+    "initialSpeechInstruction": "Say hello",
+    "initialUtterance": "",
+    "reInitSessionAttributesOnRestart": false,
+    "region": "eu-west-2",
+    "retryOnLexPostTextTimeout": "false",
+    "retryCountPostTextTimeout": "1"
+  },
+  "ui": {
+    "parentOrigin": "https://d3p9d6twq7a4qq.cloudfront.net/",
+    "toolbarTitle": "Order Milk22",
+    "toolbarLogo": "",
+    "positiveFeedbackIntent": "Thumbs up",
+    "negativeFeedbackIntent": "Thumbs down",
+    "helpIntent": "Help",
+    "enableLogin": false,
+    "enableLiveChat": false,
+    "forceLogin": false,
+    "AllowSuperDangerousHTMLInMessage": true,
+    "shouldDisplayResponseCardTitle": false,
+    "saveHistory": false,
+    "enableSFX": false,
+    "minButtonContent": "",
+    "hideInputFieldsForButtonResponse": false,
+    "pushInitialTextOnRestart": false,
+    "directFocusToBotInput": false,
+    "showDialogStateIcon": false,
+    "backButton": false,
+    "messageMenu": true,
+    "hideButtonMessageBubble": false
+  },
+  "polly": {
+    "voiceId": "Salli"
+  },
+  "recorder": {
+    "preset": "speech_recognition"
+  },
+  "iframe": {
+    "shouldLoadIframeMinimized": false,
+    "iframeSrcPath": "/index.html#/?lexWebUiEmbed=true",
+    "WebAppParentOrigin":"https://d3p9d6twq7a4qq.cloudfront.net/"
+  }
+}
