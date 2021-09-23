@@ -50386,7 +50386,7 @@ var dependenciesIframe = {
   }],
   css: [{
     name: 'lex-web-ui-loader',
-    url: './lex-web-ui-loader9.css'
+    url: 'lex-web-ui-loader9.css'
   }]
 };
 
